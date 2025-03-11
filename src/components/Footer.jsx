@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Logo et Nom */}
           <div className="col-md-4 d-flex align-items-center">
             <img 
-              src={Logo}  // Remplace par le lien de ton logo
+              src={Logo}  
               alt="Logo" 
               style={{ width: '50px', marginRight: '10px' }} 
             />
@@ -17,15 +17,13 @@ const Footer = () => {
             </h5>
           </div>
 
-          {/* Liens rapides */}
+         
           <div className="col-md-3">
             <h6 className="fw-bold">Quick links</h6>
             <ul className="list-unstyled">
               <li><a href="#" className="text-decoration-none text-dark">Home</a></li>
               <li><a href="#" className="text-decoration-none text-dark">About</a></li>
-              <li><a href="#" className="text-decoration-none text-dark">Destination</a></li>
-              <li><a href="#" className="text-decoration-none text-dark">Tours</a></li>
-              <li><a href="#" className="text-decoration-none text-dark">Our Blog</a></li>
+              <li><a href="#" className="text-decoration-none text-dark">Cercuits</a></li>
               <li><a href="#" className="text-decoration-none text-dark fw-bold">Contact us</a></li>
             </ul>
           </div>
