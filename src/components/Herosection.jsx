@@ -7,11 +7,10 @@ import boutahar from '../images/boutahar.jpg';
 const HeroSection = () => {
   return (
     <div>
-      {/* Section Hero avec Background Image */}
       <div 
         className="hero-section d-flex align-items-center text-white"
         style={{
-          backgroundImage: `url(${Chameau})`, // Remplace par ton image
+          backgroundImage: `url(${Chameau})`, 
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           height: '400px',
@@ -26,8 +25,6 @@ const HeroSection = () => {
           <Button variant="warning" className="mt-3">SEE TOURS</Button>
         </div>
       </div>
-
-      {/* Section Carousel */}
       <Carousel className="mt-4">
         {/* Slide 1 */}
         <Carousel.Item>
