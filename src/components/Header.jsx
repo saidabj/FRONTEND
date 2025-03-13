@@ -27,10 +27,9 @@ const Header = () => {
             <Nav.Link href="#">Contact</Nav.Link>
           </Nav>
 
-          {/* Barre de recherche */}
           <Form className="d-flex ms-3">
             <FormControl type="search" placeholder="Search" className="me-2" />
-            <Button variant="warning">Search</Button>
+            <Button variant="warning" class="btn btn-md btn-warning">Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
