@@ -140,7 +140,7 @@ const Contact = () => {
                 Instagram
               </motion.a>
               <motion.a
-                href="https://www.facebook.com"
+                href="https://www.facebook.com/ouarzazatetour/?_rdc=2&_rdr#"
                 className="me-3"
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
