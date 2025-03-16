@@ -131,7 +131,7 @@ const Contact = () => {
 
             <div className="mt-4">
               <motion.a
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/ouarzazate_tours?igsh=MWFzaHozcGV4NXMzYQ=="
                 className="me-3"
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
