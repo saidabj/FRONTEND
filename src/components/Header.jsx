@@ -50,6 +50,16 @@ const Header = () => {
             <button className="btn btn-danger ms-3" onClick={changerLangue}>
               {langue}
             </button>
+             {/* Ajouter le bouton de Login */}
+             <motion.button
+              className="btn btn-outline-light ms-3"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              Login
+            </motion.button>
           </div>
         </div>
       </nav>

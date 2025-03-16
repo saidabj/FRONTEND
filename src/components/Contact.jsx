@@ -81,7 +81,7 @@ const Contact = () => {
               </Form.Group>
 
               <Form.Group className="mb-3" controlId="formSubject">
-                <Form.Label>Sujet</Form.Label>
+                <Form.Label>Circuits proposé</Form.Label>
                 <Form.Control
                   type="text"
                   name="subject"

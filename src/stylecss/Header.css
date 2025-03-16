@@ -80,4 +80,13 @@
     color:#7a2935;
    
   }
+.navbar .btn-outline-light {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .navbar .btn-outline-light:hover {
+    background-color: #333;
+    color: #fff;
+  }
   

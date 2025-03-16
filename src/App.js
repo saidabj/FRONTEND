@@ -8,11 +8,11 @@ function App() {
     <div>
     
  
-<Contact />
-     {/* <Header /><br/>
-       <About />
-       
-       <Footer /> */}
+
+      <Header /><br/>
+     {/*  <About />
+       <Contact />*/}
+       <Footer /> 
     </div>
   );
 }
