@@ -50,7 +50,6 @@ const Header = () => {
             <button className="btn btn-danger ms-3" onClick={changerLangue}>
               {langue}
             </button>
-             {/* Ajouter le bouton de Login */}
              <motion.button
               className="btn btn-outline-light ms-3"
               whileHover={{ scale: 1.1 }}
