@@ -1,0 +1,42 @@
+.btn-retour{color: azure;
+font-weight: bold;
+font-size: 20px;
+border-radius: 12px;
+padding: 12px 30px;
+background-color:rgba(209, 81, 31, 0.925) ;
+margin-left: 60px;
+width: 300px;}
+
+
+
+.btn-retour:hover{
+   color: azure;
+    background-color:rgba(209, 81, 31, 0.925) ;
+
+    box-shadow: 0 0 5px rgb(0, 162, 255),
+            0 0 25px rgba(255, 30, 0, 0.753), 0 0 50px  rgba(255, 72, 0, 0.808),
+            0 0 100px rgba(255, 153, 0, 0.863), 0 0 200px rgba(255, 94, 0, 0.795)
+
+}
+
+
+   .btn-res{
+    font-size: 19px;
+    color: azure;
+   }
+   
+   .btn-res:hover{
+    
+    color: azure;
+   }
+   
+   .fw-bold-x{
+    color: rgba(209, 81, 31, 0.925);
+    box-shadow: #dc3545 2px 2px 2px ;
+   }
+
+   .fw-bold-p{
+    color:rgba(209, 81, 31, 0.925);
+    font-size: 17px;
+    font-weight: bold;
+   }
