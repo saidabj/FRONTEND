@@ -32,8 +32,8 @@ const Footer = () => {
             >
               <li><a href="/" className="text-white">Accueil</a></li>
               <li><a href="/about" className="text-white">À propos</a></li>
-              <li><a href="/contact" className="text-white">Cercuit</a></li>
-              <li><a href="/destinations" className="text-white">Contact</a></li>
+              <li><a href="/destinations" className="text-white">Cercuit</a></li>
+              <li><a href="/contact" className="text-white">Contact</a></li>
             </motion.ul>
           </Col>
 
@@ -85,7 +85,7 @@ const Footer = () => {
               animate={{ opacity: 1, y: 0 }} 
               transition={{ duration: 1, delay: 1.2 }}
             >
-              Téléphone: +212 5 22 22 22 22
+              Téléphone: +212666214800
             </motion.p>
           </Col>
 
@@ -104,7 +104,7 @@ const Footer = () => {
             >
               Abonnez-vous pour des offres exclusives et des nouvelles sur le Maroc.
             </motion.p>
-            <form>
+            {/*<form>
               <motion.input
                 type="email"
                 placeholder="Entrez votre email"
@@ -125,7 +125,7 @@ const Footer = () => {
               >
                 S'abonner
               </motion.button>
-            </form>
+            </form>*/}
           </Col>
         </Row>
 

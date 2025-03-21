@@ -19,7 +19,7 @@ const About = () => {
     <Container fluid className="about-page">
       <Row className="text-center my-5" data-aos="fade-up">
         <Col>
-          <h1 className="display-4 text-danger">À propos de Morocco Travel</h1>
+          <h1 className="display-4 text-danger"  style={{ color: "rgba(209, 81, 31, 0.925)" }}>À propos de Morocco Travel</h1>
           <p className="lead">
             Découvrez le Maroc sous un nouvel angle avec Morocco Travel, votre agence spécialisée dans les voyages sur mesure.
           </p>
@@ -34,7 +34,7 @@ const About = () => {
               <Card.Text>
                 Que vous souhaitiez explorer les ruelles animées des médinas ou les dunes du désert, nous vous offrons des expériences adaptées à vos envies.
               </Card.Text>
-              <Button variant="danger">En savoir plus</Button>
+              <Button variant="danger" style={{ backgroundColor: "rgba(209, 81, 31, 0.925)", borderColor: "rgba(209, 81, 31, 0.925)", color: "#fff",fontWeight:"bold" }}>En savoir plus</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -47,7 +47,7 @@ const About = () => {
               <Card.Text>
                 Nous garantissons un service de qualité supérieure avec des hébergements luxueux et des moyens de transport confortables pour rendre votre séjour inoubliable.
               </Card.Text>
-              <Button variant="danger">Explorez nos offres</Button>
+              <Button variant="danger" style={{ backgroundColor: "rgba(209, 81, 31, 0.925)", borderColor: "rgba(209, 81, 31, 0.925)", color: "#fff",fontWeight:"bold" }}>Explorez nos offres</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -62,7 +62,7 @@ const About = () => {
               <Card.Text>
                 Que vous souhaitiez explorer les ruelles animées des médinas ou les dunes du désert, nous vous offrons des expériences adaptées à vos envies.
               </Card.Text>
-              <Button variant="danger">En savoir plus</Button>
+              <Button variant="danger" style={{ backgroundColor: "rgba(209, 81, 31, 0.925)", borderColor: "rgba(209, 81, 31, 0.925)", color: "#fff",fontWeight:"bold" }}>En savoir plus</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -75,7 +75,7 @@ const About = () => {
               <Card.Text>
                 Nous garantissons un service de qualité supérieure avec des hébergements luxueux et des moyens de transport confortables pour rendre votre séjour inoubliable.
               </Card.Text>
-              <Button variant="danger">Explorez nos offres</Button>
+              <Button variant="danger" style={{ backgroundColor: "rgba(209, 81, 31, 0.925)", borderColor: "rgba(209, 81, 31, 0.925)", color: "#fff",fontWeight:"bold" }}>Explorez nos offres</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -101,13 +101,13 @@ const About = () => {
       </Row>
       <Row className="my-5 text-center" data-aos="zoom-in-up">
         <Col>
-          <Button variant="danger" size="lg" href="/contact">
+          <Button variant="danger" style={{ backgroundColor: "rgba(209, 81, 31, 0.925)", borderColor: "rgba(209, 81, 31, 0.925)", color: "#fff",fontWeight:"bold" }}  size="lg" href="/contact">
             Contactez-nous pour planifier votre voyage
           </Button>
         </Col>
       </Row>
       <div>
-        <Footer />
+        
       </div>
     </Container>
     

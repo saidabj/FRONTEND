@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { motion } from 'framer-motion';
+import { FaInstagram, FaFacebookF, FaTwitter } from 'react-icons/fa';
 import mazagan from '../images/mazagan.jpg'
 import '../stylecss/Contact.css'; 
 
@@ -110,7 +111,7 @@ const Contact = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.5 }}
               >
-                <Button variant="danger" type="submit">
+                <Button variant="danger" type="submit" style={{ backgroundColor: "rgba(209, 81, 31, 0.925)"}}>
                   {isSubmitted ? 'Envoyé!' : 'Envoyer'}
                 </Button>
               </motion.div>
@@ -125,39 +126,39 @@ const Contact = () => {
             transition={{ duration: 1 }}
           >
             <h3>Nos coordonnées</h3>
-            <p><strong>Adresse :</strong> 123 Rue du Maroc, Casablanca, Maroc</p>
-            <p><strong>Téléphone :</strong> +212 5 22 22 22 22</p>
+            <p><strong>Adresse :</strong> Maroc, Marrakech-safi, Ait Ourir</p>
+            <p><strong>Téléphone :</strong> +212666214800</p>
             <p><strong>Email :</strong> contact@moroccotravel.com</p>
 
             <div className="mt-4">
-              <motion.a
-                href="https://www.instagram.com"
-                className="me-3"
-                initial={{ opacity: 0, y: 50 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1, delay: 0.5 }}
-              >
-                Instagram
-              </motion.a>
-              <motion.a
-                href="https://www.facebook.com"
-                className="me-3"
-                initial={{ opacity: 0, y: 50 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1, delay: 0.7 }}
-              >
-                Facebook
-              </motion.a>
-              <motion.a
-                href="https://www.twitter.com"
-                className="me-3"
-                initial={{ opacity: 0, y: 50 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1, delay: 0.9 }}
-              >
-                Twitter
-              </motion.a>
-            </div>
+      <motion.a
+        href="https://www.instagram.com/ouarzazate_tours?igsh=MWFzaHozcGV4NXMzYQ=="
+        className="me-3"
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 0.5 }}
+      >
+        <FaInstagram size={30} /> {/* Icône Instagram */}
+      </motion.a>
+      <motion.a
+        href="https://www.facebook.com/ouarzazatetour/?_rdc=2&_rdr#"
+        className="me-3"
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 0.7 }}
+      >
+        <FaFacebookF size={30} /> {/* Icône Facebook */}
+      </motion.a>
+      <motion.a
+        href="https://www.twitter.com"
+        className="me-3"
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 0.9 }}
+      >
+        <FaTwitter size={30} /> {/* Icône Twitter */}
+      </motion.a>
+    </div>
           </motion.div>
         </Col>
       </Row>

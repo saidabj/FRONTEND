@@ -12,7 +12,7 @@ footer {
     color: #ffffff;
   }
   
-  footer .bg-dark:hover {
+  footer a:hover{
     color:#7a2935;
   }
   

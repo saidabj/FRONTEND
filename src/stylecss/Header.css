@@ -60,7 +60,7 @@
   }
   
   .navbar-nav .nav-link:hover {
-    color: #7a2935 !important; 
+    color: rgba(209, 81, 31, 0.925) !important; 
   }
   
   .social-icons {
@@ -72,12 +72,17 @@
     color: white;
     font-size: 1.2rem;
   }
-  
+  .fw-bold-T{
+    color:  white;
+  }
+  span{
+    color: rgba(209, 81, 31, 0.925);
+}
   .social-icons a:hover {
-    color: #7a2935;
+    color: rgba(209, 81, 31, 0.925);
   }
   .social-icons a:hover {
-    color:#7a2935;
+    color:rgba(209, 81, 31, 0.925);
    
   }
 .navbar .btn-outline-light {
